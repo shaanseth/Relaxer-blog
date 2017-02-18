@@ -104,7 +104,7 @@ footer {
   height: 20rem;
   background-color: #121212;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
