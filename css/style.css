@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background: #f0efef;
 }
 
 header {
@@ -52,12 +53,45 @@ ul {
 }
 
 .call-to-action {
-  height: 2rem;
-  background-color: #f9e42e;
+  width: 100%;
+  min-height: 4rem;
+  color: yellow;
+}
+
+.call-to-action button {
+  border: none;
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 250px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  color: #fff;
 }
 
 .target {
   display: inline;
-  color: red;
+  color: #606161;
   font-size: 3rem;
+  float: left;
+  padding-right: 4px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  color: #033048;
+}
+
+h2 {
+  color: #033048;
+}
+
+.ReadMore {
+  display:flex;
+  justify-content: flex-end;
 }
